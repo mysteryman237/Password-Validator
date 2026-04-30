@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+    <title>Password</title>
+</head>
+<body>
+   <div class="container">
+    <div class="box">
+        <div id="passwordContainer">  
+            <input type="password" id="password" placeholder="Password ">
+            <i id="showPassword" class="fa-solid fa-eye"></i>
+            <i id="hidePassword" class="fa-solid fa-eye-slash"></i>
+        </div>
+        <ul>
+            <li data-field="size"><i class="fa-solid fa-circle"></i> 8+ character</li>
+            <li data-field="lower"><i class="fa-solid fa-circle"></i> Lowercase</li>
+            <li data-field="upper"><i class="fa-solid fa-circle"></i> Uppercase</li>
+            <li data-field="number"><i class="fa-solid fa-circle"></i> Number</li>
+            <li data-field="special"><i class="fa-solid fa-circle"></i> Special character</li>
+        </ul>
+    </div>
+   </div> 
+   <script src="script.js"></script>
+</body>
+</html>
