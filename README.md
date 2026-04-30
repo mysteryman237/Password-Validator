@@ -1,0 +1,1 @@
+This mini project is a password validator that checks is a password matches the requirement and users can click on a show/hide button to see or hide their password. This project was build with HTML, CSS and vanila js. N.B this small system can be used in a big project that requires password validation check.
